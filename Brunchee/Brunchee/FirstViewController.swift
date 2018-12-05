@@ -10,8 +10,15 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var bgImage: UIImageView!
+    
+    @IBOutlet weak var zipCode: UITextField!
+    
+    @IBOutlet weak var city: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
