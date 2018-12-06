@@ -10,3 +10,5 @@ import Foundation
  let API_KEY = " Adasdasdf"
 
 let API_KEY2 = "asdfjadfkla"
+
+let API_Key3 = "dkflajsdf"
