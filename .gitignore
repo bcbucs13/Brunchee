@@ -6,6 +6,7 @@
 build/
 DerivedData/
 Hidden/*
+api.swift
 
 ## Various settings
 *.pbxuser
