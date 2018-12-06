@@ -8,3 +8,5 @@
 
 import Foundation
  let API_KEY = " Adasdasdf"
+
+let API_KEY2 = "asdfjadfkla"
