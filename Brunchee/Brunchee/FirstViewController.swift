@@ -26,6 +26,10 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //Get User Location by typing their zip code or using their current location to find the current zip code
+    
+    
 
 
 }
