@@ -1,0 +1,6 @@
+framework module Pods_Brunchee {
+  umbrella header "Pods-Brunchee-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6474F09083CB216C40CEDA0E /* Pods_Brunchee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667A16A4E6AC14CF07AD0F3 /* Pods_Brunchee.framework */; };
 		CEB8095821B86DE800E3E29A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8095721B86DE800E3E29A /* AppDelegate.swift */; };
 		CEB8095A21B86DE800E3E29A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8095921B86DE800E3E29A /* FirstViewController.swift */; };
 		CEB8095C21B86DE800E3E29A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8095B21B86DE800E3E29A /* SecondViewController.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4667A16A4E6AC14CF07AD0F3 /* Pods_Brunchee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brunchee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CA53B0291A84E0F573755D /* Pods-Brunchee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brunchee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brunchee/Pods-Brunchee.release.xcconfig"; sourceTree = "<group>"; };
 		CEB8095421B86DE800E3E29A /* Brunchee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brunchee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB8095721B86DE800E3E29A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB8095921B86DE800E3E29A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		CEB8096321B86DF200E3E29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8096521B86DF200E3E29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB8096B21B871BA00E3E29A /* brunch_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunch_photo.jpg; sourceTree = "<group>"; };
+		D8990E72D275C9D6F5E7EF3F /* Pods-Brunchee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brunchee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brunchee/Pods-Brunchee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6474F09083CB216C40CEDA0E /* Pods_Brunchee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F85F11D22D475C73D5F0F90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8990E72D275C9D6F5E7EF3F /* Pods-Brunchee.debug.xcconfig */,
+				C3CA53B0291A84E0F573755D /* Pods-Brunchee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B53AB27FA5C587CE8A6ABE4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4667A16A4E6AC14CF07AD0F3 /* Pods_Brunchee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEB8094B21B86DE800E3E29A = {
 			isa = PBXGroup;
 			children = (
 				CEB8095621B86DE800E3E29A /* Brunchee */,
 				CEB8095521B86DE800E3E29A /* Products */,
+				3F85F11D22D475C73D5F0F90 /* Pods */,
+				B53AB27FA5C587CE8A6ABE4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB8096821B86DF200E3E29A /* Build configuration list for PBXNativeTarget "Brunchee" */;
 			buildPhases = (
+				D13D6FDEC13F0E08FA265DB8 /* [CP] Check Pods Manifest.lock */,
 				CEB8095021B86DE800E3E29A /* Sources */,
 				CEB8095121B86DE800E3E29A /* Frameworks */,
 				CEB8095221B86DE800E3E29A /* Resources */,
+				9E717D62CD5D653F1E1FABEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +162,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E717D62CD5D653F1E1FABEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brunchee/Pods-Brunchee-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brunchee/Pods-Brunchee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13D6FDEC13F0E08FA265DB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brunchee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEB8095021B86DE800E3E29A /* Sources */ = {
@@ -286,6 +363,7 @@
 		};
 		CEB8096921B86DF200E3E29A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8990E72D275C9D6F5E7EF3F /* Pods-Brunchee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +381,7 @@
 		};
 		CEB8096A21B86DF200E3E29A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CA53B0291A84E0F573755D /* Pods-Brunchee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
