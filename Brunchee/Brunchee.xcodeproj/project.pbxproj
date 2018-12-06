@@ -15,7 +15,7 @@
 		CEB8096121B86DF200E3E29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8096021B86DF200E3E29A /* Assets.xcassets */; };
 		CEB8096421B86DF200E3E29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8096221B86DF200E3E29A /* LaunchScreen.storyboard */; };
 		CEB8096C21B871BC00E3E29A /* brunch_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEB8096B21B871BA00E3E29A /* brunch_photo.jpg */; };
-		CEB8096F21B999F000E3E29A /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8096E21B999F000E3E29A /* Keys.swift */; };
+		CEB8097621B99D5D00E3E29A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8097521B99D5D00E3E29A /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		CEB8096321B86DF200E3E29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8096521B86DF200E3E29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB8096B21B871BA00E3E29A /* brunch_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunch_photo.jpg; sourceTree = "<group>"; };
-		CEB8096E21B999F000E3E29A /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		CEB8097521B99D5D00E3E29A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D8990E72D275C9D6F5E7EF3F /* Pods-Brunchee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brunchee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brunchee/Pods-Brunchee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 		CEB8094B21B86DE800E3E29A = {
 			isa = PBXGroup;
 			children = (
-				CEB8096D21B9996400E3E29A /* Hidden */,
+				CEB8097221B99B5100E3E29A /* Hidden */,
 				CEB8095621B86DE800E3E29A /* Brunchee */,
 				CEB8095521B86DE800E3E29A /* Products */,
 				3F85F11D22D475C73D5F0F90 /* Pods */,
@@ -97,12 +97,12 @@
 			path = Brunchee;
 			sourceTree = "<group>";
 		};
-		CEB8096D21B9996400E3E29A /* Hidden */ = {
+		CEB8097221B99B5100E3E29A /* Hidden */ = {
 			isa = PBXGroup;
 			children = (
-				CEB8096E21B999F000E3E29A /* Keys.swift */,
+				CEB8097521B99D5D00E3E29A /* API.swift */,
 			);
-			path = Hidden;
+			name = Hidden;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB8095C21B86DE800E3E29A /* SecondViewController.swift in Sources */,
-				CEB8096F21B999F000E3E29A /* Keys.swift in Sources */,
 				CEB8095821B86DE800E3E29A /* AppDelegate.swift in Sources */,
+				CEB8097621B99D5D00E3E29A /* API.swift in Sources */,
 				CEB8095A21B86DE800E3E29A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

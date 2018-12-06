@@ -7,3 +7,4 @@
 //
 
 import Foundation
+ let API_KEY = " Adasdasdf"
